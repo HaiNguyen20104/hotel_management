@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+
+        <!-- Sequence for Hotel Customer Code -->
+        <record id="seq_hotel_user_customer" model="ir.sequence">
+            <field name="name">Hotel Customer Code</field>
+            <field name="code">hotel.user.customer</field>
+            <field name="prefix">KH</field>
+            <field name="padding">4</field>
+            <field name="number_increment">1</field>
+            <field name="number_next">1</field>
+            <field name="implementation">standard</field>
+        </record>
+
+        <!-- Sequence for Hotel Employee Code -->
+        <record id="seq_hotel_user_employee" model="ir.sequence">
+            <field name="name">Hotel Employee Code</field>
+            <field name="code">hotel.user.employee</field>
+            <field name="prefix">NV</field>
+            <field name="padding">4</field>
+            <field name="number_increment">1</field>
+            <field name="number_next">1</field>
+            <field name="implementation">standard</field>
+        </record>
+
+        <!-- Sequence for Hotel Reservation -->
+        <record id="seq_hotel_reservation" model="ir.sequence">
+            <field name="name">Hotel Reservation</field>
+            <field name="code">hotel.reservation</field>
+            <field name="prefix">RSV</field>
+            <field name="padding">5</field>
+            <field name="number_increment">1</field>
+            <field name="number_next">1</field>
+            <field name="implementation">standard</field>
+        </record>
+
+        <!-- Sequence for Hotel Rental -->
+        <record id="seq_hotel_rental" model="ir.sequence">
+            <field name="name">Hotel Rental</field>
+            <field name="code">hotel.rental</field>
+            <field name="prefix">RNT</field>
+            <field name="padding">5</field>
+            <field name="number_increment">1</field>
+            <field name="number_next">1</field>
+            <field name="implementation">standard</field>
+        </record>
+
+        <!-- Sequence for Hotel Invoice -->
+        <record id="seq_hotel_invoice" model="ir.sequence">
+            <field name="name">Hotel Invoice</field>
+            <field name="code">hotel.invoice</field>
+            <field name="prefix">INV</field>
+            <field name="padding">5</field>
+            <field name="number_increment">1</field>
+            <field name="number_next">1</field>
+            <field name="implementation">standard</field>
+        </record>
+
+    </data>
+</odoo>
