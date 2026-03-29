@@ -6,3 +6,4 @@ from . import user
 from . import reservation
 from . import rental
 from . import invoice
+from . import payment
